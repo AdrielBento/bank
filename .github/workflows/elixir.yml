@@ -29,3 +29,10 @@ jobs:
       run: mix deps.get
     - name: Run tests
       run: mix test
+    - name: Codacy Analysis CLI
+      uses: codacy/codacy-analysis-cli-action@1.1.0
+      with:
+        upload: true
+        fail-if-incomplete: true
+    - name: Codacy Coverage Reporter
+      uses: codacy/codacy-coverage-reporter-action@0.2.0
