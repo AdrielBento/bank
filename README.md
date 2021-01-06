@@ -1,6 +1,7 @@
 # 🏦 Bank
 
-**TODO: Add description**
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0a8b15bcc3624317a98bc8985ab99109)](https://www.codacy.com/gh/AdrielBento/bank/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AdrielBento/bank&amp;utm_campaign=Badge_Grade)
+
 
 ## Installation
 
