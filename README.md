@@ -20,3 +20,15 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/bank](https://hexdocs.pm/bank).
 
+
+---
+Account.register(%User{name: 'Adriel', email: 'adriel@gmail.com'})
+
+:erlang.term_to_binany(%User{name: 'Adriel', email: 'adriel@gmail.com'})
+
+fn account -> account.user.email == email end
+
+&(&1.user.email == email)
+
+
+[1, 2, 3, 4, 5] |> List.delete(1) |> List.delete(2)
